@@ -59,6 +59,7 @@ This dataset is distributed AS-IS and no responsibility implied or explicit can 
 Jorge L. Reyes-Ortiz, Alessandro Ghio, Luca Oneto, Davide Anguita. November 2012.
 
 The names of all the variables in the output file are listed below:
+====================================================================
 
 "ActivityID"                                       
 "ActivityName"                                                 
@@ -151,7 +152,7 @@ The names of all the variables in the output file are listed below:
 "angleZgravityMean"   
 
 Activity Labels:
- 
+================ 
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
