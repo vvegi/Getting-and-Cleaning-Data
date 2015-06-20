@@ -63,6 +63,7 @@ names(mergedDataWithNames) <- gsub("BodyAcc", "Body Accelaration ", names(merged
 names(mergedDataWithNames) <- gsub("GravityAcc", "Gravity Accelaration ", names(mergedDataWithNames))
 names(mergedDataWithNames) <- gsub("BodyGyro", "Body Gyroscope ", names(mergedDataWithNames))
 names(mergedDataWithNames) <- gsub("Mag", "Magnitude", names(mergedDataWithNames))
+names(mergedDataWithNames) <- gsub("\\.", "", names(mergedDataWithNames))
 names(mergedDataWithNames) <- gsub("std", "Standard Deviation", names(mergedDataWithNames))
 names(mergedDataWithNames) <- gsub("\\()", "", names(mergedDataWithNames))
 names(mergedDataWithNames) <- gsub("\\-", " ", names(mergedDataWithNames))
